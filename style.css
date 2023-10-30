@@ -1,0 +1,35 @@
+/* teen.css */
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Hahmlet', serif;}
+ul{list-style-type: none;}
+a{color:#000; text-decoration: none;}
+:root{--main-color:#009591; --bg:#f3f3f3;}
+.hide{display:none !important;}
+
+.wrap .teen .container{width: 1520px; margin: 0 auto; }
+.wrap .teen .container h2{padding:50px 0 30px; font-size: 45px;}
+
+.support_box{ display: table; table-layout: auto; width: 100%};
+.support_box .tab_box{display: table-cell;vertical-align: top; width: 170px; }
+.support_box .tab_box ul{display: flex; flex-direction: column; justify-content: center;}
+.support_box .tab_box ul li{background:#d4d4d4; width: 170px;height: 170px;display: flex; flex-direction: column; justify-content: center; align-items: center;border-radius:10px; border-bottom-right-radius: 0; border-top-right-radius: 0;}
+.support_box .tab_box ul li.open{background:#009591;}
+.support_box .tab_box ul li.open:first-child{background:#009591;}
+.support_box .tab_box ul li a{font-size: 40px; line-height: 30px; color:#fff;font-weight: 700;}
+
+
+/* .support_box .contents_box{display: none;} */
+/* .support_box .contents_box{display: block;} */
+.support_box .contents_box{display: table-cell; vertical-align: middle; border:1px solid var(--main-color);width: 100%; margin-left: 56px; background: #f3f3f3;;}
+.support_box .contents_box ul .contents{display:flex; flex-direction: column; gap:60px; padding-left: 46px;}
+.support_box .contents_box ul .contents h3{font-size: 40px; color: #009591;}
+.support_box .contents_box ul .contents .cont{display: flex; gap:40px;width: 100%;}
+.support_box .contents_box ul .contents .cont .cont_img{width: 522px; height: 398px; background: paleturquoise; }
+.support_box .contents_box ul .contents .cont .cont_txt{width: 50%; display: flex; flex-direction: column; gap: 35px; }
+.support_box .contents_box ul .contents .cont .cont_txt span{font-size: 27px; line-height: 50px; ;}
+.support_box .contents_box ul .contents .cont .cont_txt ul{}
+.support_box .contents_box ul .contents .cont .cont_txt ul .cont_txt_li:before{content: ""; position: absolute; left:0; top:17px;width: 5px; height: 5px; background: #009591; border-radius: 50%;}
+.support_box .contents_box ul .contents .cont .cont_txt ul .cont_txt_li{position: relative;font-size: 27px; font-weight: 500;padding-left: 17px; margin-bottom: 14px;}
+.support_box .contents_box ul .contents .cont .cont_txt ul .cont_txt_li:last-child{margin-bottom: 0;}
+
+ 
